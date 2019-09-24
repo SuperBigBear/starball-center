@@ -6,11 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/starball-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/starball-springboot-admin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/StarballAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/starball-api/pom.xml" />
         <option value="$PROJECT_DIR$/starball-provider-api/pom.xml" />
         <option value="$PROJECT_DIR$/starball-service-api/pom.xml" />

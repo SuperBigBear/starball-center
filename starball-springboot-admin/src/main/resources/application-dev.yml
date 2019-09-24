@@ -1,0 +1,53 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+server:
+  port: 8200
+
+spring:
+  application:
+    name: starball-springboot-admin
+  main:
+    allow-bean-definition-overriding: true
+  security:
+    user:
+      name: ming
+      password: 110110
+  #send springboot application status info to email
+  mail:
+    host: smtp.163.com
+    username: test01
+    password: xxxx
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 19793515@qq.com
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+  client:
+      registryFetchIntervalSeconds: 5
+      serviceUrl:
+        ##register current service into eureka domain
+        defaultZone: http://localhost:8100/eureka/
+      ##register service
+      register-with-eureka: true
+      ##search service
+      fetch-registry: true

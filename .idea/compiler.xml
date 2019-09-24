@@ -11,14 +11,16 @@
         <module name="starball-eureka-server" />
         <module name="starball-service-order-api" />
         <module name="starball-service-user-api" />
+        <module name="starball-springboot-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="Springboot-starball-center" target="1.8" />
       <module name="starball-center" target="1.8" />
       <module name="starball-eureka" target="1.8" />
       <module name="starball-provider-api" target="1.8" />
-      <module name="starball-service-api" target="1.5" />
+      <module name="starball-service-api" target="1.8" />
       <module name="starball-user-api" target="1.8" />
       <module name="StarballAPI" target="1.8" />
     </bytecodeTargetLevel>

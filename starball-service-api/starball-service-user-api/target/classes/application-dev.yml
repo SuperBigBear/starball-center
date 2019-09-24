@@ -1,0 +1,39 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+server:
+  port: 8000
+  main:
+    allow-bean-definition-overriding: true
+spring:
+  security:
+    user:
+      name: ming
+      password: 110110
+  application:
+    name: starball-springboot-service-user-api
+#spring.boot.admin.client:
+#  url: http://localhost:8200
+#  instance:
+#    metadata:
+#      user.name: ${spring.security.user.name}
+#      user.password: ${spring.security.user.password}
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: {spring.security.user.password}
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+  client:
+    serviceUrl:
+      ##register current service into eureka domain
+      defaultZone: http://localhost:8100/eureka/
+    ##register service
+    register-with-eureka: true
+    ##search service
+    fetch-registry: true
+

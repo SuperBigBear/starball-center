@@ -1,0 +1,536 @@
+2019-09-24 10:49:03.959[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9291e81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 10:49:04.921[main][main] INFO  app.EurekaApplication - The following profiles are active: dev
+2019-09-24 10:49:06.453[main][main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-24 10:49:07.046[main][main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=89942855-f589-30ce-8f54-b54acfb2f90b
+2019-09-24 10:49:07.265[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9291e81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 10:49:08.163[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2019-09-24 10:49:08.188[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2019-09-24 10:49:08.206[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-24 10:49:08.206[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-24 10:49:08.834[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-24 10:49:08.835[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3886 ms
+2019-09-24 10:49:09.013[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 10:49:09.013[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 10:49:09.036[main][main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7412ed6b
+2019-09-24 10:49:10.974[main][main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-09-24 10:49:11.102[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-24 10:49:11.104[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-24 10:49:11.319[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-24 10:49:11.319[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-24 10:49:11.970[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 10:49:11.970[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 10:49:12.303[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-24 10:49:13.837[main][main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-24 10:49:13.916[main][main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-24 10:49:13.917[main][main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-09-24 10:49:13.945[main][main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569293353942 with initial instances count: 0
+2019-09-24 10:49:14.019[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-09-24 10:49:14.022[main][main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 10:49:14.060[main][main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-09-24 10:49:14.063[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-09-24 10:49:14.097[main][main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-24 10:49:14.355[main][main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application STARBALL-EUREKA-SERVER with eureka with status UP
+2019-09-24 10:49:14.365[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-09-24 10:49:14.367[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-09-24 10:49:14.370[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-09-24 10:49:14.389[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2019-09-24 10:49:14.410[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-09-24 10:49:14.412[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-09-24 10:49:14.412[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-09-24 10:49:14.413[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-09-24 10:49:14.413[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-09-24 10:49:14.435[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-09-24 10:49:14.450[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path ''
+2019-09-24 10:49:14.451[main][main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8100
+2019-09-24 10:49:14.454[main][main] INFO  app.EurekaApplication - Started EurekaApplication in 12.593 seconds (JVM running for 15.064)
+2019-09-24 10:49:14.470[main][main] INFO  app.EurekaApplication - Eureka Server is running...
+2019-09-24 10:49:22.465[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-24 10:49:22.465[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-24 10:49:22.479[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-09-24 10:50:14.423[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:51:14.424[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:52:14.424[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:53:14.425[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:54:14.426[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:55:14.442[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:56:14.427[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:57:14.427[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:58:14.428[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 10:59:14.029[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 10:59:14.430[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:00:25.799[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ec7131b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:00:26.761[main][main] INFO  app.EurekaApplication - The following profiles are active: dev
+2019-09-24 11:00:28.440[main][main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-24 11:00:29.055[main][main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=85296239-a936-355b-8034-816e8bf39beb
+2019-09-24 11:00:29.200[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ec7131b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:00:30.186[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2019-09-24 11:00:30.218[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:00:30.231[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-24 11:00:30.232[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-24 11:00:32.050[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-24 11:00:32.051[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5258 ms
+2019-09-24 11:00:32.697[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:00:32.697[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:00:32.731[main][main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5cf3157b
+2019-09-24 11:00:35.868[main][main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-09-24 11:00:36.086[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-24 11:00:36.087[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-24 11:00:36.375[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-24 11:00:36.378[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-24 11:00:37.682[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:00:37.684[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:00:38.665[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-24 11:00:40.885[main][main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-24 11:00:40.986[main][main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-24 11:00:40.986[main][main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-09-24 11:00:41.016[main][main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569294041013 with initial instances count: 0
+2019-09-24 11:00:41.125[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-09-24 11:00:41.130[main][main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:00:41.171[main][main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-09-24 11:00:41.177[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-09-24 11:00:41.196[main][main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-24 11:00:41.364[main][main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application STARBALL-EUREKA-SERVER with eureka with status UP
+2019-09-24 11:00:41.383[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-09-24 11:00:41.386[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-09-24 11:00:41.388[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-09-24 11:00:41.401[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:00:41.442[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-09-24 11:00:41.443[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-09-24 11:00:41.444[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-09-24 11:00:41.444[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-09-24 11:00:41.445[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-09-24 11:00:41.467[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-09-24 11:00:41.477[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path ''
+2019-09-24 11:00:41.479[main][main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8100
+2019-09-24 11:00:41.482[main][main] INFO  app.EurekaApplication - Started EurekaApplication in 18.965 seconds (JVM running for 21.544)
+2019-09-24 11:00:41.500[main][main] INFO  app.EurekaApplication - Eureka Server is running...
+2019-09-24 11:01:41.452[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:02:41.454[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:02:55.031[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-24 11:02:55.031[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-24 11:02:55.044[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-09-24 11:03:21.435[http-nio-8100-exec-6][http-nio-8100-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance STARBALL-SPRINGBOOT-ADMIN/SGHZ001023451.szh.apac.bosch.com:starball-springboot-admin:8200 with status UP (replication=false)
+2019-09-24 11:03:41.456[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:04:38.410[http-nio-8100-exec-7][http-nio-8100-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/SGHZ001023451.szh.apac.bosch.com:8000 with status UP (replication=false)
+2019-09-24 11:04:41.457[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:05:41.472[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 11:06:41.487[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 11:07:41.489[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 11:08:41.503[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 11:09:41.216[http-nio-8100-exec-9][http-nio-8100-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance STARBALL-SPRINGBOOT-SERVICE-USER-API/SGHZ001023451.szh.apac.bosch.com:starball-springboot-service-user-api:8000 with status UP (replication=false)
+2019-09-24 11:09:41.503[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:10:41.143[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:10:41.513[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-09-24 11:17:16.778[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e24e99cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:17:18.207[main][main] INFO  app.EurekaApplication - The following profiles are active: dev
+2019-09-24 11:17:19.698[main][main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-24 11:17:20.354[main][main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=85296239-a936-355b-8034-816e8bf39beb
+2019-09-24 11:17:20.616[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e24e99cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:17:22.134[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2019-09-24 11:17:22.149[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:17:22.181[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-24 11:17:22.181[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-24 11:17:23.062[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-24 11:17:23.077[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4839 ms
+2019-09-24 11:17:23.252[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:17:23.252[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:17:23.268[main][main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@10f7918f
+2019-09-24 11:17:26.050[main][main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-09-24 11:17:26.160[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-24 11:17:26.160[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-24 11:17:26.378[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-24 11:17:26.394[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-24 11:17:27.093[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:17:27.093[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:17:27.526[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-24 11:17:28.997[main][main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-24 11:17:29.099[main][main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-24 11:17:29.100[main][main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-09-24 11:17:29.138[main][main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569295049134 with initial instances count: 0
+2019-09-24 11:17:29.354[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-09-24 11:17:29.383[main][main] WARN  c.n.eureka.cluster.PeerEurekaNodes - Cannot parse service URI http://${eureka.instance.hostname}:8100/eureka/
+java.net.URISyntaxException: Illegal character in authority at index 7: http://${eureka.instance.hostname}:8100/eureka/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.parseAuthority(URI.java:3186)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3097)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.hostFromUrl(PeerEurekaNodes.java:261)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.isInstanceURL(PeerEurekaNodes.java:250)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.isThisMyUrl(PeerEurekaNodes.java:239)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.resolvePeerUrls(PeerEurekaNodes.java:138)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:87)
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at app.EurekaApplication.main(EurekaApplication.java:19)
+2019-09-24 11:17:29.385[main][main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://${eureka.instance.hostname}:8100/eureka/]
+2019-09-24 11:17:30.605[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-24 11:17:30.606[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-24 11:17:30.607[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-24 11:17:30.607[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-24 11:17:30.756[main][main] WARN  c.n.eureka.cluster.PeerEurekaNodes - Cannot parse service URI http://${eureka.instance.hostname}:8100/eureka/
+java.net.URISyntaxException: Illegal character in authority at index 7: http://${eureka.instance.hostname}:8100/eureka/
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.parseAuthority(URI.java:3186)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3097)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.hostFromUrl(PeerEurekaNodes.java:261)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.createPeerEurekaNode(PeerEurekaNodes.java:199)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.updatePeerEurekaNodes(PeerEurekaNodes.java:189)
+	at com.netflix.eureka.cluster.PeerEurekaNodes.start(PeerEurekaNodes.java:87)
+	at com.netflix.eureka.DefaultEurekaServerContext.initialize(DefaultEurekaServerContext.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203)
+	at app.EurekaApplication.main(EurekaApplication.java:19)
+2019-09-24 11:17:30.820[main][main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://${eureka.instance.hostname}:8100/eureka/
+2019-09-24 11:17:30.849[main][main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-09-24 11:17:30.850[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-09-24 11:17:30.881[main][main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-24 11:17:31.053[main][main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application STARBALL-SPRINGBOOT-EUREKA-SERVER with eureka with status UP
+2019-09-24 11:17:31.078[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-09-24 11:17:31.089[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:17:31.080[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-09-24 11:17:31.103[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-09-24 11:17:31.165[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-09-24 11:17:31.169[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path ''
+2019-09-24 11:17:31.166[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-09-24 11:17:31.170[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-09-24 11:17:31.171[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-09-24 11:17:31.171[main][main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8100
+2019-09-24 11:17:31.171[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-09-24 11:17:31.176[main][main] INFO  app.EurekaApplication - Started EurekaApplication in 16.956 seconds (JVM running for 19.638)
+2019-09-24 11:17:31.210[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-09-24 11:17:31.229[main][main] INFO  app.EurekaApplication - Eureka Server is running...
+2019-09-24 11:17:31.374[http-nio-8100-exec-1][http-nio-8100-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-24 11:17:31.374[http-nio-8100-exec-1][http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-24 11:17:31.402[http-nio-8100-exec-1][http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2019-09-24 11:18:31.188[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:18:59.054[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$722710cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:19:00.211[main][main] INFO  app.EurekaApplication - The following profiles are active: dev
+2019-09-24 11:19:01.693[main][main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-24 11:19:02.409[main][main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=85296239-a936-355b-8034-816e8bf39beb
+2019-09-24 11:19:02.622[main][main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$722710cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 11:19:03.573[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2019-09-24 11:19:03.596[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:19:03.619[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-24 11:19:03.619[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-24 11:19:04.184[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-24 11:19:04.184[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3945 ms
+2019-09-24 11:19:04.356[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:19:04.356[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:19:04.372[main][main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@38b8b6c0
+2019-09-24 11:19:06.095[main][main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-09-24 11:19:06.205[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-24 11:19:06.205[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-24 11:19:06.441[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-24 11:19:06.441[main][main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-24 11:19:06.972[main][main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-24 11:19:06.972[main][main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-24 11:19:07.285[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-24 11:19:08.532[main][main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-24 11:19:08.581[main][main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-24 11:19:08.597[main][main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-09-24 11:19:09.011[main][main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569295149011 with initial instances count: 0
+2019-09-24 11:19:09.137[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-09-24 11:19:09.142[main][main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:19:09.189[main][main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-09-24 11:19:09.251[main][main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2019-09-24 11:19:09.272[main][main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-24 11:19:09.624[main][main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application STARBALL-SPRINGBOOT-EUREKA-SERVER with eureka with status UP
+2019-09-24 11:19:09.665[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2019-09-24 11:19:09.742[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-09-24 11:19:09.755[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-09-24 11:19:09.757[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-09-24 11:19:09.808[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path ''
+2019-09-24 11:19:09.793[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-09-24 11:19:09.868[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-09-24 11:19:09.868[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-09-24 11:19:09.873[main][main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8100
+2019-09-24 11:19:09.953[main][main] INFO  app.EurekaApplication - Started EurekaApplication in 13.529 seconds (JVM running for 17.132)
+2019-09-24 11:19:10.014[http-nio-8100-exec-10][http-nio-8100-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-24 11:19:10.016[http-nio-8100-exec-10][http-nio-8100-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-24 11:19:09.869[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-09-24 11:19:10.020[Thread-11][Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-09-24 11:19:10.058[main][main] INFO  app.EurekaApplication - Eureka Server is running...
+2019-09-24 11:19:10.074[http-nio-8100-exec-10][http-nio-8100-exec-10] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 57 ms
+2019-09-24 11:19:10.130[Thread-11][Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-09-24 11:20:10.112[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 11:20:49.571[http-nio-8100-exec-5][http-nio-8100-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance STARBALL-SPRINGBOOT-ADMIN/SGHZ001023451.szh.apac.bosch.com:starball-springboot-admin:8200 with status UP (replication=false)
+2019-09-24 11:21:10.127[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 11:22:03.623[http-nio-8100-exec-10][http-nio-8100-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance STARBALL-SPRINGBOOT-SERVICE-USER-API/SGHZ001023451.szh.apac.bosch.com:starball-springboot-service-user-api:8000 with status UP (replication=false)
+2019-09-24 11:22:10.131[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 11:22:44.921[http-nio-8100-exec-1][http-nio-8100-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance STARBALL-SPRINGBOOT-SERVICE-ORDER-API/SGHZ001023451.szh.apac.bosch.com:starball-springboot-service-order-api:8001 with status UP (replication=false)
+2019-09-24 11:23:10.134[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 11:24:10.144[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2019-09-24 11:25:10.148[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-09-24 11:26:10.150[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 11:27:10.157[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-09-24 11:28:10.161[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 11:29:09.165[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:29:10.176[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 11:30:10.192[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 11:31:10.198[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-09-24 11:32:10.213[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 11:33:10.226[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 11:34:09.203[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 11:34:10.234[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-09-24 11:35:10.248[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 16ms
+2019-09-24 11:36:10.262[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 16ms
+2019-09-24 11:37:10.274[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 11:38:10.277[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-09-24 11:39:09.164[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:39:10.278[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 11:40:10.287[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-09-24 11:41:10.291[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-09-24 11:42:10.305[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 11:43:10.316[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 11:44:10.331[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 11:45:10.335[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 11:46:10.337[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-09-24 11:47:10.342[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-09-24 11:48:10.356[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 11:49:09.173[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 11:49:09.204[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 11:49:10.371[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 12:52:29.979[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3739611ms
+2019-09-24 12:53:29.986[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-09-24 12:54:29.987[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 12:55:29.987[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 12:56:30.000[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 12:57:30.000[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-09-24 12:58:30.006[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 214ms
+2019-09-24 12:59:30.019[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 222ms
+2019-09-24 13:00:30.033[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 221ms
+2019-09-24 13:01:27.954[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:01:30.042[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 216ms
+2019-09-24 13:02:30.054[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 213ms
+2019-09-24 13:03:30.062[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-09-24 13:04:30.069[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-09-24 13:05:30.074[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-09-24 13:06:27.785[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 13:06:30.081[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-09-24 13:07:30.081[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:08:30.081[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:09:30.081[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:10:30.081[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-09-24 13:11:27.730[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:11:30.082[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 13:12:30.082[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 13:13:30.083[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 13:14:30.084[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-09-24 13:15:30.084[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:16:30.084[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:17:30.085[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:18:30.085[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:19:30.085[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:20:30.085[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:21:27.695[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:21:27.786[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 13:21:30.086[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:22:30.087[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:23:30.087[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:24:30.087[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:25:30.088[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:26:30.088[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:27:30.090[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:28:30.091[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:29:30.093[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:30:30.095[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:31:27.703[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:31:30.098[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:32:30.098[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:33:30.098[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:34:30.098[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:35:30.098[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:36:27.794[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 13:36:30.099[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:37:30.100[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:38:30.100[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:39:30.102[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 13:40:30.102[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:41:27.705[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:41:30.103[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 13:42:30.103[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:43:30.104[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:44:30.104[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:45:30.105[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-09-24 13:46:30.106[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:47:30.107[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-09-24 13:48:30.108[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 13:49:30.108[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:50:30.109[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:51:27.702[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 13:51:27.792[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 13:51:30.109[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:52:30.111[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 13:53:30.111[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:54:30.112[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:55:30.112[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:56:30.112[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:57:30.113[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 13:58:30.114[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 13:59:30.114[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:00:30.115[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:01:27.706[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:01:30.117[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:02:30.119[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:03:30.122[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 14:04:30.123[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:05:30.126[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:06:27.800[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 14:06:30.127[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 14:07:30.129[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:08:30.129[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:09:30.131[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:10:30.132[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:11:27.719[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:11:30.133[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:12:30.133[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:13:30.134[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:14:30.134[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:15:30.135[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:16:30.135[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:17:30.142[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-09-24 14:18:30.143[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:19:30.302[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 159ms
+2019-09-24 14:20:30.311[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2019-09-24 14:21:27.722[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:21:27.808[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 14:21:30.311[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:22:30.315[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 14:23:30.319[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-09-24 14:24:30.320[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:25:30.320[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:26:30.321[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:27:30.335[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 14:28:30.335[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:29:30.337[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 14:30:30.364[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 27ms
+2019-09-24 14:31:27.725[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:31:30.367[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-09-24 14:32:30.381[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-09-24 14:33:30.394[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 14:34:30.402[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-09-24 14:35:30.419[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-09-24 14:36:27.814[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 14:36:30.428[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-09-24 14:37:30.457[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 26ms
+2019-09-24 14:38:30.471[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-09-24 14:39:30.485[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-09-24 14:40:30.486[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:41:27.743[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:41:30.488[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:42:30.490[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-09-24 14:43:30.496[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-09-24 14:44:30.497[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:45:30.498[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:46:30.499[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:47:30.500[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:48:30.500[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:49:30.510[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2019-09-24 14:50:30.510[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:51:27.751[Eureka-PeerNodesUpdater][Eureka-PeerNodesUpdater] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-09-24 14:51:27.827[ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-09-24 14:51:30.511[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:52:30.511[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-09-24 14:53:30.511[Eureka-EvictionTimer][Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms

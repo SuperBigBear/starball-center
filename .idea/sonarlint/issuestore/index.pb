@@ -7,8 +7,6 @@ G
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 N
 starball-eureka-server/pom.xml,2\a\2a139e75416f8242ac243eac95827dc9166e507d
-i
-9starball-eureka-server/src/main/resources/application.yml,2\9\296fe6ec1754f3f0f848a74d0a35d3bc5286203e
 ]
 -starball-service-api/starball-service-api.iml,e\3\e39811201f777a594316b4fbd23f74d242066ea8
 o

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/starball-center.iml" filepath="$PROJECT_DIR$/starball-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/starball-service-api/starball-service-api.iml" filepath="$PROJECT_DIR$/starball-service-api/starball-service-api.iml" />
     </modules>
   </component>
