@@ -34,7 +34,7 @@ public class UserController {
 //            len = bin.read(buffers);
 //        }
 //        bout.flush();
-        return  "This is from user service api";
+        return  "Hi Ming,This is from user service api";
 
     }
 

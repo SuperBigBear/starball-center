@@ -16,10 +16,10 @@ spring:
       name: ming
       password: 110110
   #send springboot application status info to email
-  mail:
-    host: smtp.163.com
-    username: test01
-    password: xxxx
+#  mail:
+#    host: smtp.163.com
+#    username: test01
+#    password: xxxx
   boot:
     admin:
       notify:

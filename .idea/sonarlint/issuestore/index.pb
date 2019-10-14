@@ -27,3 +27,5 @@ astarball-service-api/starball-service-order-api/src/main/java/app/OrderServiceA
 _starball-service-api/starball-service-user-api/src/main/java/app/UserServiceAPIApplication.java,4\6\465d1433d49f3a300caee469a652a027642c1ba3
 C
 starball-center.iml,4\5\4539abad5af6100f7a0d9c7b15b6d46091549816
+{
+Kstarball-springboot-admin/src/main/java/app/SpringBootAdminApplication.java,1\e\1e3091daa26a91c7c2bd993755913d34842f7de3
