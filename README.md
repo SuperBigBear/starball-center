@@ -1,5 +1,5 @@
 # starball-center
-Starball management system
+Common framewirk for Starball management system 
 
 Spring Boot 2.1.8
 
