@@ -3,16 +3,15 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starball-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-common/starball-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-common/starball-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-common/starball-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-common/starball-common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starball-eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-provider-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starball-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starball-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starball-service-api/starball-service-order-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starball-service-api/starball-service-user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starball-service-api/starball-service-user-api" charset="UTF-8" />
   </component>
 </project>

@@ -23,6 +23,15 @@
         <!--</dependency>-->
 
     </dependencies>
+
+    <!-- 单应用排除内置tomcat -->
+    <!--<exclusions>-->
+        <!--<exclusion>-->
+            <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+        <!--</exclusion>-->
+    <!--</exclusions>-->
+    <!---->
     <!--这里必须添加，否则各种依赖有问题-->
 <repositories>
     <repository>

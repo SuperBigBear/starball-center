@@ -9,6 +9,17 @@ server:
 spring:
   application:
     name: starball-springboot-service-order-api
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non-null
+#  redis:
+#    database: 2
+#    host: ${REDIS_HOST:localhost}
+#    port: ${REDIS_PORT:6379}
+#    pool:
+#    max-active: 20
+
   main:
     allow-bean-definition-overriding: true
   security:

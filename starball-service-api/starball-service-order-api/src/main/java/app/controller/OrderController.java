@@ -1,6 +1,10 @@
 package app.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.util.List;
+
 
 @RestController
 @EnableEurekaClient
@@ -21,6 +27,15 @@ public class OrderController {
     @Autowired
     //@Resource(name="restTemplate")
     private RestTemplate restTemplate;
+
+    private static Logger logger= LoggerFactory.getLogger(OrderController.class);
+
+    //local balance ,get service list from register center
+    @Autowired
+    private DiscoveryClient discoveryClient;
+
+    //Reset as 0 when clean up
+    private  int requestCount=1;
 
     @RequestMapping("/query")
     public String QueryInfo()
@@ -37,7 +52,29 @@ public class OrderController {
         //Second is to call  service url from registration center
         String url="http://starball-springboot-service-user-api/user/query";
         String result=restTemplate.getForObject(url,String.class);
-
+        logger.info("Successfully received message from Eureka center: "+result);
         return  result;
+    }
+    @RequestMapping("/user/search")
+    public  String QueryUserOrders()
+    {
+        String instanceUrl=getInstances();
+        //Also use httpclient to call RPC
+       String result= restTemplate.getForObject(instanceUrl,String.class);
+        return  result;
+
+    }
+
+    //local balance，线程不安全，建议使用原子类，原子类CAS 是非阻塞算法的一种常见实现，相对于 synchronized 这种阻塞算法，它的性能更好。
+    private  String getInstances()
+    {
+        String serviceName="starball-springboot-service-user-api";
+        List<ServiceInstance> instances=discoveryClient.getInstances(serviceName);
+        if (instances==null||instances.size()<=0)
+        {return  null;}
+        int instanceSize=instances.size();
+        int serviceIndex=requestCount%instanceSize;
+        requestCount++;
+        return  instances.get(serviceIndex).getUri().toString();
     }
 }

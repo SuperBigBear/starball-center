@@ -10,7 +10,6 @@
     <version>1.0</version>
     <modules>
         <module>starball-common</module>
-        <module>starball-discovery</module>
         <module>starball-eureka-server</module>
         <module>starball-service-api</module>
 

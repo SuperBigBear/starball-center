@@ -1,6 +1,2 @@
 
-Wsquid:UnusedPrivateMethod*"+Remove this unused private "getPDF" method.(ú™8²÷ìïÓ-
-isquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(Á¬´•8ï±êíÓ-
-ˆsquid:S1488."jImmediately return this expression instead of assigning it to the temporary variable "base64decodedBytes".(Ô•ê»8²¶”îÓ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆíó8²÷ìïÓ-
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥®Óşÿÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë‘÷ò
