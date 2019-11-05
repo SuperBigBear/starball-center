@@ -12,3 +12,6 @@ Spring Boot Admin 2.1.6
 Spring Security 2.1.8
 
 Spring Boot Email 2.1.8
+
+Spring Cloud Feign
+spring Cloud config-server
