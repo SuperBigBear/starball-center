@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/starball-springboot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/starball-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/starball-config/pom.xml" />
+        <option value="$PROJECT_DIR$/starball-service-api-impl/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

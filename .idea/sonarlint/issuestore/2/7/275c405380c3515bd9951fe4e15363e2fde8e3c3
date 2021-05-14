@@ -1,0 +1,8 @@
+
+ksquid:S00100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øñ›ñüÿÿÿÿ
+Zsquid:S1155G">Use isEmpty() to check whether the collection is empty or not.(¡ÙĞ®ıÿÿÿÿ
+Usquid:S26295"7Use the built-in formatting to construct this argument.(±ÀÖÖ8‚è’õÌ.
+fsquid:S001009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òº«
+zsquid:S1488="^Immediately return this expression instead of assigning it to the temporary variable "result".(µÒŒøÿÿÿÿ
+_squid:S34575"AFormat specifiers should be used instead of string concatenation.(±ÀÖÖ8‚è’õÌ.
+fsquid:S00100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıšô

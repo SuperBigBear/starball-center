@@ -1,0 +1,9 @@
+Server:
+  port: 8002
+
+spring:
+  applcation:
+    name: starball-service-goods-api-impl
+  cloud:
+    zookeeper:
+      connect-string: 172.21.255.255:2181

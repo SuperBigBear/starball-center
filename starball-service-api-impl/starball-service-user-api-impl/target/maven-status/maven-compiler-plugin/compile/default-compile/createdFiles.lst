@@ -1,0 +1,3 @@
+app\AppUserAPIApplication.class
+app\AppUserAPIApplication$SecurityPermitAllConfig.class
+app\controller\UserController.class

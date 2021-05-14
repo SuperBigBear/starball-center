@@ -16,6 +16,8 @@
         <module>starball-common-log</module>
         <module>starball-common-redis</module>
         <module>starball-common-swagger</module>
+        <module>starball-common-socket</module>
+        <module>starball-common-socket-client</module>
     </modules>
 
 

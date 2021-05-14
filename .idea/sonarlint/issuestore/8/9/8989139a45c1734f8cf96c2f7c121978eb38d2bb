@@ -1,9 +1,0 @@
-
-rsquid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øñ›ñüÿÿÿÿ8á–…òÓ-
-msquid:S00100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òº«8÷ïç±á-
-_squid:S34577"AFormat specifiers should be used instead of string concatenation.(±ÀÖÖ8ìì¬ñİ-
-nsquid:UselessImportCheck	"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8Ú÷ä’İ-
-asquid:S1155I">Use isEmpty() to check whether the collection is empty or not.(¡ÙĞ®ıÿÿÿÿ8’»û±á-
-Usquid:S26297"7Use the built-in formatting to construct this argument.(±ÀÖÖ8ìì¬ñİ-
-msquid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıšô8Ú÷ä’İ-
-squid:S1488?"^Immediately return this expression instead of assigning it to the temporary variable "result".(µÒŒøÿÿÿÿ8Ç™’²á-

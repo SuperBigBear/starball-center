@@ -6,5 +6,5 @@
 .----)   |      |  |     /  _____  \  |  |\  \----.|  |_)  |  /  _____  \  |  `----.|  `----.
 |_______/       |__|    /__/     \__\ | _| `._____||______/  /__/     \__\ |_______||_______|
 
- :: Spring Boot ::        (v2.1.8.RELEASE)
+ :: Spring Boot ::        (v2.3.4.RELEASE)
 Copyright 2019-2099 STARBALL.COM.CN All Rights Reserved

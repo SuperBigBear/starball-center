@@ -9,12 +9,17 @@
         <module name="starball-common-core" />
         <module name="starball-common-log" />
         <module name="starball-common-redis" />
+        <module name="starball-common-socket" />
+        <module name="starball-common-socket-client" />
         <module name="starball-common-swagger" />
         <module name="starball-config" />
         <module name="starball-eureka-server" />
         <module name="starball-gateway" />
+        <module name="starball-service-goods-api-impl" />
         <module name="starball-service-order-api" />
+        <module name="starball-service-order-api-impl" />
         <module name="starball-service-user-api" />
+        <module name="starball-service-user-api-impl" />
         <module name="starball-springboot-admin" />
       </profile>
     </annotationProcessing>
@@ -38,6 +43,8 @@
       <module name="starball-common-core" options="-parameters" />
       <module name="starball-common-log" options="-parameters" />
       <module name="starball-common-redis" options="-parameters" />
+      <module name="starball-common-socket" options="-parameters" />
+      <module name="starball-common-socket-client" options="-parameters" />
       <module name="starball-common-swagger" options="-parameters" />
       <module name="starball-config" options="-parameters" />
       <module name="starball-discovery" options="-parameters" />
@@ -46,8 +53,12 @@
       <module name="starball-gateway" options="-parameters" />
       <module name="starball-provider-api" options="-parameters" />
       <module name="starball-service-api" options="-parameters" />
+      <module name="starball-service-api-impl" options="-parameters" />
+      <module name="starball-service-goods-api-impl" options="-parameters" />
       <module name="starball-service-order-api" options="-parameters" />
+      <module name="starball-service-order-api-impl" options="-parameters" />
       <module name="starball-service-user-api" options="-parameters" />
+      <module name="starball-service-user-api-impl" options="-parameters" />
       <module name="starball-user-api" options="-parameters" />
     </option>
   </component>
